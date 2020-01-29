@@ -32,3 +32,18 @@ def twoSum_slower(nums, target):
         except:
             continue
     return result
+
+#Runtime: 860 ms faster than 25%
+#Memory Usage: 13.6 MB lesser than 93%
+def twoSum(nums, target):
+    l=len(nums)
+    result=None
+    for i in range(l):
+        try:
+            j=nums.index(target-nums[i])
+            if i!=j:
+                result=[i,j]
+                break
+        except:
+            continue
+    return result
