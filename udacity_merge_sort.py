@@ -1,4 +1,4 @@
-"""Implement a function recursively to get the desired
+    """Implement a function recursively to get the desired
 Fibonacci sequence value.
 Your code should have the same input/output as the 
 iterative code in the instructions."""
@@ -66,4 +66,5 @@ def merge_sort(input_list):
                     output_list=output_list+left_half[i:]
                     break
     return output_list
+
 
